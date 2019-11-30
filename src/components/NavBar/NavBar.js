@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
-import './navbar.css';
+import './navbar.scss';
 function NavBar() {
+    // Let's keep this here for example of hooks. 
     const [state, setState] = useState('')
 
     return (
         <div className="navbar-container">
-            <div>
-                <a href="https://google.com">Home</a>
+            <div className="navbar-link-container">
+                <a className="navbar-link" href="https://google.com">Home</a>
             </div>
-            <div>
-                <a href="https://google.com"> Contact</a>
+            <div className="navbar-link-container">
+                <a className="navbar-link" href="https://google.com"> Contact</a>
             </div>
-            <div>
-                <a href="https://google.com">Products</a>
+            <div className="navbar-link-container">
+                <a className="navbar-link" href="https://google.com">Products</a>
             </div>
         </div>
     )

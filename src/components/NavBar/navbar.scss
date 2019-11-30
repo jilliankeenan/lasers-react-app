@@ -1,0 +1,34 @@
+.navbar-link-container {
+  padding: 15px;
+}
+.navbar-container {
+  background: #d8d0d0;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  width: auto;
+  justify-content: right;
+}
+
+a:link {
+  font-family: "Proza Libre", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+a:active {
+  text-decoration: underline;
+  color: pink;
+}
+
