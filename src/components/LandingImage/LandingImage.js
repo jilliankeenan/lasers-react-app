@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Image from '../../assests/images/background-image.jpg'
+import Image from '../../assests/images/casinoimage.jfif'
 import './landingImage.scss';
 
 function LandingImage() {
@@ -9,9 +9,6 @@ function LandingImage() {
     return (
         <div className="landing-image-container">
             <img src={Image}></img>
-            <div className="text-block">
-                <h1>She believed she could so she did</h1>
-            </div>
         </div>
     )
 }
